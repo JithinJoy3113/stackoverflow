@@ -1,0 +1,1037 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted",
+    "Segoe UI", "Liberation Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 55px;
+  border-bottom: 1px solid hsl(210, 8%, 80%);
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index:1;
+}
+.mainTopcontents{
+  padding-left: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.head {
+ 
+  display: flex;
+}
+.headerLinks{
+  margin-top:15px;
+}
+.headerButtons{
+  margin-top:11px;
+}
+
+.links {
+  padding-left: 20px;
+  text-decoration: none;
+}
+.about,
+.product,
+.over {
+  padding-left: 21px;
+  text-decoration: none;
+  color: hsl(210,8%,42%);
+  font-size: 13px;
+}
+
+.searchDiv{
+  width: 712px;
+  height: 29px;
+  margin-top:12px;
+  margin-left: 20px;
+  display: flex;
+  border-style: groove;
+  border-color: hsl(210deg 7.84% 64.97%);
+  border-width: thin;
+  border-radius: 6px; 
+}
+.searchIcon{
+  margin-left:10px;
+  margin-top:6px;
+ 
+}
+.search {
+  color: black;
+  margin-left: 7px;
+  border: none;
+ 
+}
+.log {
+  width: 58px;
+  height: 33px;
+  border-color: hsl(210,77%,46%);
+  margin-left: 7px;
+  color:hsl(210,77%,46%);
+  border-radius: 6px;
+  border-width: thin;
+}
+.signIn {
+  width: 65px;
+  height: 33px;
+  background-color: hsl(210,77%,46%);
+  margin-left: 1px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+}
+
+.sideMenu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+.scroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 165px;
+  height: 88vh;
+  border-right: 1px solid hsl(210, 8%, 80%);
+  position: sticky;
+  left: 0;
+  padding-left: 40px;
+  top: 10px; 
+  padding-top: 14px;
+  
+}
+.home {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  padding-left: 6px;
+}
+.svg-icon{
+margin-top: 3px;
+margin-left: 5px;
+
+}
+.labsLink{
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  padding-left: 6px;
+}
+.spaceBetween {
+  margin-top: 31px;
+  display: flex;
+  flex-direction: row;
+}
+.labsIcon{
+  padding-left: 80px;
+  color:hsl(210deg 7.84% 64.97%);
+}
+
+
+.companies,
+.jobs,
+.discussion,
+.labs,
+.tags,
+.users,
+.questions {
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+}
+.jobIconDiv{
+  background-color:hsl(229.85deg 65.11% 59.38%);
+  height: 24px;
+  width: 26px;
+  border-radius:50px;  
+  margin-left: 7px;
+ 
+}
+
+.jobIcon{
+  margin-top:3px; 
+  margin-left:4px; 
+  
+}
+.collect {
+  width: 130px;
+  height: 100px;
+  margin-top:27px;
+  padding-left: 8px;
+}
+.plusSign {
+  text-decoration: none;
+  color: hsl(210deg 7.36% 43.27%);
+  font-size: 20px;
+  padding-left: 37px;
+}
+.collectHead {
+  margin-top: 25px;
+
+}
+.collectLink{
+  color: black;
+  font-size: 11px;
+}
+.collectPara {
+  font-size: 11px;
+  margin-top: 8px;
+}
+.teams {
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.teamsImg {
+  margin-top: 25px;
+}
+.teamsContent {
+  margin-top: 17px;
+  width: 125px;
+}
+.teamPara {
+  font-size: 11px;
+}
+.teamLearnDiv {
+  margin-top: 15px;
+  width: 125px;
+}
+.teamBtn {
+  width: 120px;
+  height: 28px;
+  background-color: hsl(27, 89%, 48%);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 12px;
+}
+.teamBtnExplore {
+  width: 120px;
+  height: 25px;
+  color: black;
+  border-radius: 6px;
+  border: none;
+  font-size: 12px;
+}
+.teamExploreDiv {
+  margin-top: 6px;
+}
+.homeDiv {
+  display: flex;
+  width: 30px;
+}
+
+.main{
+  display: flex;
+  margin-top:6px;
+}
+.middle {
+  display: flex;
+}
+
+.profile {
+  width: 128px;
+  height: 128px;
+  border-radius: 5px;
+  margin-top: 17px;
+  margin-left:4px;
+}
+
+.topContent {
+  display: flex;
+  flex-direction: row;
+}
+.details{
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.name {
+  font-size: 34px;
+  margin-left: 6px;
+}
+
+.role {
+  font-size: 21px;
+  margin-top: 1px;
+  margin-left: 6px;
+  color: hsl(210deg 6.62% 42.09%);
+}
+.profileIcons{
+  margin-left:5px;
+}
+.experience,
+.bavaria {
+  font-size: 13px;
+  margin-top: 6px;
+  color: hsl(210deg 6.62% 42.09%);
+  display: flex;
+  flex-direction: row;
+}
+
+.memberPara {
+  padding-top: 3px;
+  padding-right: 4px;
+  margin-left:4px;
+}
+
+.drop{
+  border-radius: 4px;
+  width: 74px;
+  height: 34px;
+  border-style: groove;
+  border-color: hsl(210deg 7.84% 64.97%);
+  border-width: thin;
+}
+.dropDown {
+  position: relative;
+  display: inline-block;
+  padding-left: 465px;
+  padding-top: 11px;
+}
+.activity {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  height: 30px;
+  padding-left:5px;
+}
+.profileButton {
+  width: 60px;
+  height: 30px;
+  background-color: hsl(27, 89%, 48%);
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+.activityButton {
+  width: 70px;
+  height: 30px;
+  color: black;
+  border-radius: 15px;
+  margin-left: 3px;
+  border: none;
+}
+.statContent {
+  width: 220px;
+  height: 175px;
+  margin-top: 10px;
+  padding-left: 12px;
+  padding-top: 12px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  border-radius: 4px;
+}
+.left{
+  padding-left:5px; 
+}
+.stat {
+  font-size: 21px;
+  padding-top: 13px;
+  
+}
+.statRow1 {
+  display: flex;
+  flex-direction: row;
+}
+.statRow2 {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.statRow3 {
+  margin-top: 37px;
+}
+.statTwo,
+.statFour {
+  padding-left: 37px;
+}
+.statOne,
+.statTwo,
+.statThree,
+.statFour {
+  height: 20px;
+  width: 80px;
+}
+.statThree,
+.statFour {
+  margin-top: 20px;
+}
+.statNum {
+  font-size: 17px;
+
+}
+.collectiveTitle{
+  font-size: 15px;
+}
+.statTitle {
+  font-size: 14px;
+  font-weight: 100;
+  color: hsl(210deg 6.62% 42.09%);
+}
+
+.communities {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.community {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.collectiveContents {
+  width: 220px;
+  height: 270px;
+  margin-top: 15px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.collectiveYear{
+  font-size: 12px;
+ 
+  
+}
+.communityContents {
+  width: 220px;
+  height: 100px;
+  margin-top: 5px;
+  padding-left: 15px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  border-radius: 4px;
+}
+.communityViewLink {
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+.viewLinkIcon {
+  margin-top:3px;
+  margin-left:2px;
+}
+
+.viewDiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  padding-left: 28px;
+}
+.viewLink {
+  text-decoration: none;
+  color: hsl(210deg 6.62% 42.09%);
+  font-size: 14px;
+}
+
+.stack {
+  margin-top: 7px;
+  display: flex;
+}
+.stackLink {
+  font-size: 13px;
+  text-decoration: none;
+}
+.communityNum{
+  
+  font-size:13px;
+  color: hsl(210deg 6.62% 42.09%);
+}
+.communityNumDiv{
+  margin-left:auto;
+  margin-right:20px;
+}
+.cone {
+  margin-top: 20px;
+}
+.collectiveContentDiv {
+  width: 250px;
+  display:flex;
+}
+.imgDetails{
+ padding-left:5px; 
+}
+.right {
+  padding-left:14px;
+  width: 100%;
+  height: 100%;
+}
+.mainAbout {
+  font-size: 21px;
+  margin-top: 16px;
+  padding-left: 20px;
+}
+.aboutDiv{
+  margin-top:10px;
+}
+.aboutPara {
+  font-size: 15px;
+  padding-left: 20px;
+ 
+}
+.git{
+  margin-top:20px;
+  
+
+}
+.github {
+  margin-top: 26px;
+  font-size: 19px;
+  padding-left: 20px;
+}
+.gitUl {
+  padding-left: 50px;
+  font-size: 15px;
+}
+.gitList {
+  padding-top: 11px;
+}
+.listLink,
+.gitLink,
+.stackLink {
+  color: hsl(210,77%,46%);
+}
+.right {
+  width: 100%;
+  height: 100%;
+}
+.badges {
+  display: flex;
+  flex-direction: row;
+  font-size: 21px;
+  margin-top: 50px;
+  padding-left: 20px;
+  justify-content: space-between;
+  width: 780px;
+}
+.badgeDiv {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 800px; 
+}
+.badgeContent {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 20px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  border-radius: 4px;
+  margin-left: 20px;
+  padding-top:13px;
+}
+.gold {
+  display: flex;
+  flex-direction: row;
+}
+.badgeImg {
+  height: 48px;
+  width: 52px;
+  padding-left: 10px;
+}
+.badgeType{
+  margin-left: 8px;
+}
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.badgeButton {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 22px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  border-radius: 4px;
+  margin-left: 20px;
+  padding-right: 4px;
+}
+.badgeButtonCopy{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 22px;
+  border-style: groove;
+  border-color: hsl(210,8%,25%);
+  background-color: hsl(210,8%,25%);
+  border-width: thin;
+  border-radius: 4px;
+  margin-left: 20px;
+  padding-right: 4px;
+}
+.numbers {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.badgeName {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+
+.badgeDateDiv {
+  font-size: 12px;
+  float: right;
+  padding-right: 1px;
+  width: 100px;
+  padding-right: 15px;
+}
+
+.badgeLink{
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 2px;
+  color: black;
+}
+.bagdeCopyLink{
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 2px;
+  color: white;
+}
+.badgePoint {
+  color: hsl(66.98deg 89% 48%);
+  width: 13px;
+  padding-left: 6px;
+}
+.badgeGreyPoint {
+  width: 13px;
+  padding-left: 6px;
+  color: hsl(210deg 3.58% 70.6%);
+}
+.badgeBronzePoint {
+  width: 13px;
+  padding-left: 6px;
+  color: hsl(27deg 37.28% 57.32%);
+}
+
+.badgePara {
+  padding-top: 3px;
+  float: right;
+  text-align: right;
+}
+.topTagsHeader{
+  display: flex;
+  font-size: 21px;
+  margin-top: 15px;
+  padding-left: 20px;
+  justify-content: space-between;
+  width: 780px;
+}
+.topContents {
+  width: 780px;
+  height: 275px;
+  margin-top: 12px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+.androidTags {
+  display: flex;
+  flex-direction: row;
+  width: 780px;
+  height: 45px;
+
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(210deg 11.64% 80.39%);
+}
+.tagButton{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.tagPoints{
+  display: flex;
+  flex-direction: row;
+}
+.tagLinks{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.tagYellowPoints{
+  color: hsl(66.98deg 89% 48%);
+  padding-left: 10px;
+}
+.tagDetails{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.tagScore{
+  padding-left: 3px;
+  padding-top: 5px;
+  font-size: 14px;
+  color:hsl(210deg 5.89% 46.85%);
+}
+.number {
+  font-size: 17px;
+  padding-top: 3px;
+ 
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  padding-left: 13px;
+}
+.topPosts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+}
+.topPostcontent {
+  width: 300px;
+}
+.topPostHead{
+  display: flex;
+  flex-direction: row;
+  font-size: 21px;
+  padding-top: 20px;
+  padding-left: 20px;
+  justify-content: space-between;
+  width: 780px;
+}
+.topLinks {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9px;
+  width: 240px;
+  height: 28px;
+  border-radius: 5px;
+  margin-right: 20px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+}
+.topAllLinksDiv{
+  padding-top: 5px;
+  margin-right: 4px;
+  display: flex;
+  flex-direction: row;
+}
+.topAllbtn {
+  margin-top: 3px;
+  margin-left: 4px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 32px;
+  background-color: hsl(210, 8%, 90%);
+}
+.topQuestions{
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  margin-bottom:2px;
+}
+.topLinks2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9px;
+  width: 120px;
+  height: 28px;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  justify-content: space-between;
+}
+
+.plus {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+}
+.stack {
+  display: flex;
+  flex-direction: row;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+}
+.viewall {
+  width: auto;
+}
+.topviewal {
+  width: auto;
+  padding-top: 23px;
+}
+
+
+
+
+
+.greyli {
+  color: grey;
+  padding-left: 10px;
+}
+
+.tops {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+.topscorebtn {
+  padding-left: 8px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  border-radius: 5px;
+  width: 45px;
+  background-color: hsl(210, 8%, 90%);
+}
+
+
+.topall,
+.topscore {
+  margin-left: 8px;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.topdiv {
+  margin-left: 20px;
+}
+.topparalink,
+.toppara {
+  text-decoration: none;
+  font-size: 13px;
+  color: hsl(210,77%,46%)
+}
+.postcontent {
+  width: 780px;
+  height: 460px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  margin-left: 20px;
+}
+.postimg {
+  padding-top: 4px;
+  height: 19px;
+  width: 22px;
+}
+.postnumdiv {
+  height: 24px;
+  width: 38px;
+  margin-left: 12px;
+  background-color: green;
+  border-radius: 5px;
+}
+.postnum {
+  padding-left: 11px;
+  padding-top: 2px;
+  color: white;
+  font-size: 12px;
+}
+.postnumwhitediv {
+  height: 24px;
+  width: 38px;
+  border-width: thin;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  margin-left: 12px;
+  border-radius: 5px;
+}
+.postnumwhite,
+.metawhitenum {
+  padding-left: 11px;
+  padding-top: 2px;
+  font-size: 12px;
+}
+.postlink {
+  margin-left: 12px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.postanchor {
+  text-decoration: none;
+  color: #008cba;
+  font-size: 15px;
+}
+.break {
+  text-decoration: none;
+  color: #008cba;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.postdate {
+  font-size: 12px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+.topmeta {
+  width: 780px;
+  height: 230px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  margin-left: 20px;
+}
+.viewqa {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 90px;
+  height: 30px;
+  justify-content: right;
+}
+.metap {
+  margin-left: 2px;
+}
+.netbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+}
+.nethead {
+  font-size: 23px;
+  margin-top: 18px;
+  margin-left: 20px;
+}
+.netcontent {
+  width: 780px;
+  height: 92px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border-style: groove;
+  border-color: hsl(210, 8%, 85%);
+  border-width: thin;
+  margin-left: 20px;
+}
+
+.footerli {
+  list-style-type: none;
+}
+.footerlii {
+  list-style-type: none;
+  padding-top: 4px;
+}
+.footerliii {
+  list-style-type: none;
+  padding-top: 18px;
+}
+.twohead {
+  padding-top: 10px;
+}
+.headlink {
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.footerlinks {
+  font-size: 12.5px;
+  text-decoration: none;
+  color: white;
+}
+.footercontent {
+  margin-top: 10px;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  padding-top: 13px;
+}
+.sociallinks {
+  text-decoration: none;
+  font-size: 11px;
+  color: white;
+  padding-left: 8px;
+}
+.end {
+  margin-top: 200px;
+  padding-left: 8px;
+}
+.endpara {
+  font-size: 11px;
+  color: white;
+}
+
+
+.content {
+  margin-left: 20px;
+}
+.stackImg {
+  width: 165px;
+  margin-left: 23px;
+  height: 38px;
+  margin-top: 8px;
+}
+.orangeLine {
+  width: 100%;
+  height: 3px;
+  background-color: hsl(27, 89%, 48%);
+}
+
+.footer{
+  background-color: black;
+  display: flex;
+  width: 100%;
+}
+.footerdiv{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%; 
+  flex: 2 1 auto;
+  
+}
+.footercontent{
+ 
+  flex-wrap: wrap;
+  flex: 3 1 auto;
+}
+
+
+@media screen and (max-width:1200px){
+ .maintopdiv {
+ 
+ 
+  height: 60px;
+ }
+ .search{
+   
+ }
+}
